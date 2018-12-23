@@ -1,4 +1,4 @@
-FROM php:7.3-alpine
+FROM php:7.2-alpine
 
 RUN apk add --update openssh-client bash wget curl git
 
